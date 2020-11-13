@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>grid</title>
+</head>
+<body>
+    
+
+    <div class="container">
+
+
+    </div>
+
+
+
+    <script>
+        const imgNames = [
+            'georgian.png',
+            'romanian.png',
+            'russian.png',
+            'synagogue.png',
+            'temple.png'
+        ]
+
+        const container = document.querySelector('.container');
+
+
+        for(let i = 0; i < imgNames.length; i++){
+            const newDiv = document.createElement('div');
+            newDiv.className = 'image-container'
+            const newImg = document.createElement('img');
+            newImg.src = `img/${imgNames[i]}`;
+            newDiv.appendChild(newImg);
+            container.appendChild(newDiv);
+        } 
+
+
+
+    </script>
+
+
+</body>
+</html>
