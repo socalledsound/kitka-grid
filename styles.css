@@ -1,6 +1,9 @@
 body {
-    background: url('img/village-no-house.jpg');
-    background-size: 100%;
+    background: url('img/village-houses.jpg');
+    background-size: cover;
+    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 100;
 }
 
 .container {
@@ -10,10 +13,12 @@ body {
 
 .image-container {
     background-color: rgba(200, 200,200, 0.6);
-    width: 40%;
-    height: 40%;
+    width: 10%;
+    height: 10%;
     margin-left: 50px;
     margin-top: 50px;
+    text-align: center;
+    border-radius: 2px;
 }
 
 img { 
